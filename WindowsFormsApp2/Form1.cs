@@ -16,5 +16,27 @@ namespace WindowsFormsApp2
 		{
 			InitializeComponent();
 		}
+
+		private void btnLoad_Click(object sender, EventArgs e)
+		{
+			axCVimage1.LoadImageByDialog();
+			axCVdisplay1.Image = axCVimage1.Image;
+		}
+
+		private void btnSnap_Click(object sender, EventArgs e)
+		{
+			axCVimage1.Snap();
+			axCVdisplay1.Refresh();
+		}
+
+		private void chkLive_CheckedChanged(object sender, EventArgs e)
+		{
+			axCVimage1.Grab = chkLive.Checked;
+		}
+
+		private void axCVimage1_ImageSnaped(object sender, EventArgs e)
+		{
+			axCVdisplay1.Refresh();
+		}
 	}
 }
