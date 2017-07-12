@@ -40,7 +40,9 @@
 			// 
 			// axCVdisplay1
 			// 
-			this.axCVdisplay1.Dock = System.Windows.Forms.DockStyle.Top;
+			this.axCVdisplay1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
 			this.axCVdisplay1.Location = new System.Drawing.Point(0, 0);
 			this.axCVdisplay1.Name = "axCVdisplay1";
 			this.axCVdisplay1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axCVdisplay1.OcxState")));
