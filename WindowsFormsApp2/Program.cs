@@ -18,6 +18,12 @@ namespace WindowsFormsApp2
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
 			Application.Run(new Form1());
+			Test2();
+		}
+
+		private static void Test2()
+		{
+			throw new NotImplementedException();
 		}
 
 		private static void Test1()
