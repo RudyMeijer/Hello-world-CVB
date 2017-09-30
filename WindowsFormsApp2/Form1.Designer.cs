@@ -61,6 +61,7 @@
 			// 
 			// btnLoad
 			// 
+			this.btnLoad.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
 			this.btnLoad.Location = new System.Drawing.Point(12, 226);
 			this.btnLoad.Name = "btnLoad";
 			this.btnLoad.Size = new System.Drawing.Size(75, 23);
@@ -71,6 +72,7 @@
 			// 
 			// btnSnap
 			// 
+			this.btnSnap.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
 			this.btnSnap.Location = new System.Drawing.Point(93, 226);
 			this.btnSnap.Name = "btnSnap";
 			this.btnSnap.Size = new System.Drawing.Size(75, 23);
@@ -81,6 +83,7 @@
 			// 
 			// chkLive
 			// 
+			this.chkLive.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
 			this.chkLive.AutoSize = true;
 			this.chkLive.Location = new System.Drawing.Point(174, 230);
 			this.chkLive.Name = "chkLive";
