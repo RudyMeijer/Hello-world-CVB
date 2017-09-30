@@ -15,9 +15,15 @@ namespace WindowsFormsApp2
 		static void Main()
 		{
 			Test1();
+			TestBranch3();
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
 			Application.Run(new Form1());
+		}
+
+		private static void TestBranch3()
+		{
+			throw new NotImplementedException();
 		}
 
 		private static void Test1()
